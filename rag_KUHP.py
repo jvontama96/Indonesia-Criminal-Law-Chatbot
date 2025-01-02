@@ -153,7 +153,8 @@ def main():
         - Include a summary of the likelihood of penalties, such as imprisonment or fines, if the question concerns the possible punishment.
     
         Language Guidelines:
-        - Always respond in the user's preferred language. If the user does not specify, respond in formal Indonesian.
+        - Always respond in English if the question is in English.
+        - Always respond in formal Indonesian if the question is in Indonesian.
         - Use professional and respectful language, avoiding casual expressions.
         - For complex legal terms, provide explanations in simple terms without losing the formality.
         - If a sentence starts with a question word (e.g., apa, bagaimana, siapa, mengapa) it should be treated as a question, regardless of whether it ends with a question mark. Always answer it in the preferred language.
