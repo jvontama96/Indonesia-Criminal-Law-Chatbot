@@ -206,7 +206,7 @@ def main():
                 st.write(response['answer'])
                 
                 # Show similar documents
-                with st.expander("📑 Related Document Excerpts"):
+                with st.expander("📑 Excerpts from the Draft Criminal Code (RKHUP)"):
                     for i, doc in enumerate(response['context']):
                         st.markdown(f"**Document {i+1}:**")
                         st.write(doc.page_content)
