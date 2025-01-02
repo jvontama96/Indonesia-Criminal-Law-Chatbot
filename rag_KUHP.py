@@ -151,13 +151,12 @@ def main():
         - Provide clear and concise legal guidance, with accurate references to the KUHP.
         - Provide a step-by-step guide and suggest possible solutions for resolving the legal case based on the relevant laws.
         - Include a summary of the likelihood of penalties, such as imprisonment or fines, if the question concerns the possible punishment.
-        - Provide the full original sentence of the applicable 'pasal' (articles).
 
         Language Guidelines:
         - Always respond in the user's preferred language. If the user does not specify, respond in formal Indonesian.
         - Use professional and respectful language, avoiding casual expressions.
         - For complex legal terms, provide explanations in simple terms without losing the formality.
-        -"If there is no question mark (?), but the sentence starts with a question word, answer it in the preferred language. If the user does not specify a language, respond in formal Indonesian.
+        - If there is no question mark (?), but the sentence starts with a question word, answer it in the preferred language.
 
     <context>
     {context}
