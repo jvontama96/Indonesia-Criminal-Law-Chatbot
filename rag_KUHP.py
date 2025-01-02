@@ -150,12 +150,14 @@ def main():
         - Discuss cases and suggest applicable 'pasal' (articles) with precise legal interpretations.
         - Provide clear and concise legal guidance, with accurate references to the KUHP.
         - Provide a step-by-step guide and suggest possible solutions for resolving the legal case based on the relevant laws.
-        - At the end of the summary, provide the probability of the penalty, such as imprisonment or fines, if possible, especially if the context of the question relates to the penalty or the charges that can be imposed.
+        - Include a summary of the likelihood of penalties, such as imprisonment or fines, if the question concerns the possible punishment.
+        - Provide the full original sentence of the applicable 'pasal' (articles).
 
         Language Guidelines:
         - Always respond in the user's preferred language. If the user does not specify, respond in formal Indonesian.
         - Use professional and respectful language, avoiding casual expressions.
         - For complex legal terms, provide explanations in simple terms without losing the formality.
+        -"If there is no question mark (?), but the sentence starts with a question word, answer it in the preferred language. If the user does not specify a language, respond in formal Indonesian.
 
     <context>
     {context}
