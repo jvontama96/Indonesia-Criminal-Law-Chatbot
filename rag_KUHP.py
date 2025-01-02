@@ -105,7 +105,7 @@ def load_existing_vectorstore():
 def main():
     # Page configuration
     st.set_page_config(
-        page_title="🔴 ChatBot: Indonesia Criminal Law Consultation",
+        page_title="🔴 ChatBot: Indonesian Criminal Law",
         page_icon="⚖️",
         layout="wide"
     )
@@ -127,9 +127,9 @@ def main():
     with st.sidebar:
         st.header("Instructions")
         st.markdown("""
-        1. Main document yang digunakan adalah "draft_ruu_kuhp_final"
+        1. Main document used is "draft_ruu_kuhp_final"
         2. Click 'Start Consultation'
-        3. Berikan pertanyaan terkait hukum
+        3. Ask your questions related to Indonesian Criminal Law
         """)
     
     # Initialize Groq
