@@ -105,7 +105,7 @@ def load_existing_vectorstore():
 def main():
     # Page configuration
     st.set_page_config(
-        page_title="🔴 ChatBot: Konsultasi Hukum Pidana",
+        page_title="🔴 ChatBot: Indonesia Criminal Law Consultation",
         page_icon="⚖️",
         layout="wide"
     )
@@ -113,7 +113,7 @@ def main():
     # Check if the image exists
     image_path = "image1.JPG"
     if os.path.exists(image_path):
-        st.image(image_path, use_column_width=True)
+        st.image(image_path, use_container_width=True)
     else:
         st.warning("⚠️ Header image not found. Please ensure 'image1.JPG' is in the correct directory.")
     
