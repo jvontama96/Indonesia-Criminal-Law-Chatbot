@@ -141,8 +141,8 @@ def main():
     if not st.session_state.initialized:
         if load_existing_vectorstore():
             st.success("✅ Loaded existing vector database!")
-    
-    # Create prompt template
+            
+    #Prompt Template        
     prompt = ChatPromptTemplate.from_template("""
         You are a highly knowledgeable legal expert and AI assistant specializing in Indonesian criminal law (KUHP). 
             Your role is to:
@@ -158,7 +158,7 @@ def main():
             - For complex legal terms, provide explanations in simple terms without losing the formality.
             - If a sentence starts with a question word (e.g., apa, bagaimana, siapa, mengapa) it should be treated as a question, regardless of whether it ends with a question mark. Always answer it in the preferred language.
     """)
-      
+
     <context>
     {context}
     </context>
