@@ -119,7 +119,7 @@ def main():
     
     # Title with red styling
     st.markdown(
-        "<h1 style='text-align: center; color: #B22222;'>ChatBot: Konsultasi Hukum Pidana</h1>",
+        "<h1 style='text-align: center; color: #B22222;'>ChatBot: Hukum Pidana (Criminal Law)</h1>",
         unsafe_allow_html=True
     )
     
@@ -171,12 +171,12 @@ def main():
     with col1:
         if st.button("Start Consultation"):
             if create_vector_embedding():
-                st.success("✅ Kami siap membantu")
+                st.success("✅ What can I help with?")
             else:
                 st.error("❌ Document Error.")
     
     # User input
-    user_prompt = st.text_input("Berikan pertanyaan seputar Hukum Pidana:", 
+    user_prompt = st.text_input("Ask your questions related to Indonesian Criminal Law:", 
                                placeholder="e.g., saya jadi korban mafia tanah, apa yang harus saya lakukan?")
     
     # Process query
