@@ -157,8 +157,7 @@ def main():
         - Use professional and respectful language, avoiding casual expressions.
         - For complex legal terms, provide explanations in simple terms without losing the formality.
         - If a sentence starts with a question word (e.g., apa, bagaimana, siapa, mengapa) it should be treated as a question, regardless of whether it ends with a question mark. Always answer it in the preferred language.
-    """)
-    
+  
     <context>
     {context}
     </context>
