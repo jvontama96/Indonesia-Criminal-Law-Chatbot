@@ -156,7 +156,7 @@ def main():
         - Always respond in the user's preferred language. If the user does not specify, respond in formal Indonesian.
         - Use professional and respectful language, avoiding casual expressions.
         - For complex legal terms, provide explanations in simple terms without losing the formality.
-        - If there is no question mark (?), but the sentence starts with a question word, answer it in the preferred language.
+        - If a sentence starts with a question word (e.g., apa, bagaimana, siapa, mengapa) it should be treated as a question, regardless of whether it ends with a question mark. Always answer it in the preferred language
 
     <context>
     {context}
