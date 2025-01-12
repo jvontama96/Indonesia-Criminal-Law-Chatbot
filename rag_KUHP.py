@@ -128,7 +128,7 @@ def main():
         st.header("Instructions")
         st.markdown("""
         1. Main document used is "draft_ruu_kuhp_final"
-        2. Click 'Start Consultation'
+        2. Click 'Start Conversation'
         3. Ask your questions related to Indonesian Criminal Law
         """)
     
@@ -153,8 +153,8 @@ def main():
         - Include a summary of the likelihood of penalties, such as imprisonment or fines, if the question concerns the possible punishment.
     
         Language Guidelines:
-        - Always respond in English if the question is in English.
-        - Always respond in formal Indonesian if the question is in Indonesian.
+        - Always respond in formal Indonesian.
+        - Respond in English only if the question is explicitly in English.
         - Use professional and respectful language, avoiding casual expressions.
         - For complex legal terms, provide explanations in simple terms without losing the formality.
         - If a sentence starts with a question word (e.g., apa, bagaimana, siapa, mengapa) it should be treated as a question, regardless of whether it ends with a question mark. Always answer it in the preferred language.
@@ -180,7 +180,7 @@ def main():
     
     # User input
     user_prompt = st.text_input("Ask your questions related to Indonesian Criminal Law:", 
-                               placeholder="e.g., saya jadi korban mafia tanah, apa yang harus saya lakukan?")
+                               placeholder="e.g., berapa tahun penjara untuk hukuman untuk pencuir sepeda?")
     
     # Process query
     if user_prompt:
