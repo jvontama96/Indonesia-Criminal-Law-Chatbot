@@ -128,7 +128,7 @@ def main():
         st.header("Instructions")
         st.markdown("""
         1. Main document used is "draft_ruu_kuhp_final"
-        2. Click 'Start Conversation'
+        2. Click 'Mulai Bertanya'
         3. Ask your questions related to Indonesian Criminal Law
         """)
     
@@ -172,7 +172,7 @@ def main():
     # Document embedding button
     col1, col2 = st.columns([1, 3])
     with col1:
-        if st.button("Start Consultation"):
+        if st.button("Mulai Bertanya"):
             if create_vector_embedding():
                 st.success("✅ What can I help with?")
             else:
@@ -180,7 +180,7 @@ def main():
     
     # User input
     user_prompt = st.text_input("Ask your questions related to Indonesian Criminal Law:", 
-                               placeholder="e.g., berapa tahun penjara untuk hukuman untuk pencuir sepeda?")
+                               placeholder="e.g., berapa tahun penjara untuk hukuman untuk pencuri sepeda?")
     
     # Process query
     if user_prompt:
