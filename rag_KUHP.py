@@ -128,7 +128,7 @@ def main():
         st.header("Instructions")
         st.markdown("""
         1. Main document used is "draft_ruu_kuhp_final"
-        2. Click 'Mulai Bertanya'
+        2. Click 'Start Chatbot'
         3. Ask your questions related to Indonesian Criminal Law
         """)
     
@@ -172,7 +172,7 @@ def main():
     # Document embedding button
     col1, col2 = st.columns([1, 3])
     with col1:
-        if st.button("Mulai Bertanya"):
+        if st.button("Start Chatbot"):
             if create_vector_embedding():
                 st.success("✅ What can I help with?")
             else:
